@@ -1,6 +1,6 @@
 {
   "name": "multihash-decorator",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Decorate your hash deterministically with bip39 words",
   "main": "dist/index.js",
   "scripts": {
