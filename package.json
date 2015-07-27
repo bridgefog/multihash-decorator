@@ -1,0 +1,26 @@
+{
+  "name": "multihash-decorator",
+  "version": "0.0.1",
+  "description": "Decorate your hash deterministically with bip39 words",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha --require babel/register",
+    "compile": "babel -d dist/ lib/",
+    "prepublish": "npm run compile; npm test"
+  },
+  "contributors": [
+    { "name": "namick", "url": "https://github.com/namick" },
+    { "name": "rtlong", "url": "https://github.com/rtlong" }
+  ],
+  "homepage": "https://github.com/bridgefog/multihash-decorator",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.6.23",
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "bs58": "^2.0.1",
+    "multihashes": "^0.1.2"
+  }
+}
